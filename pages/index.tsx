@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Features from './components/templates/index/Features'
 import Story from './components/templates/index/Story'
+import Homes from './components/templates/index/Homes'
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
    <>
    <Features/>
    <Story/>
+   <Homes/>
    </>
   )
 }
